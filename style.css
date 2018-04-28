@@ -1,0 +1,128 @@
+body{
+	background: url(img/tic-tac-toe.png);
+	font-family: Arvo, serif;
+}
+
+#world{
+	position: absolute;
+	width: 140px;
+	z-index: 20;
+}
+
+header{
+	position: relative;
+	left: -7px;
+	top: -7px;
+	width: 101.5%;
+	padding: 5px;
+	border-bottom: gray solid 1px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h2{
+	font-size: 18px;
+}
+
+nav {
+	position: relative;
+	margin: auto;
+	text-decoration: none;
+	padding-bottom: 5px;
+	margin-top: 20px;
+
+}
+
+nav div {
+	display: inline;
+	margin: 0 10px;
+	padding: 5px;
+	border: gray solid 1px;
+	background: white;
+}
+
+nav div a {
+	color: #666666;
+}
+
+#quiz-list{
+	width: 400px;
+	margin: auto;
+}
+
+#about{
+	width: 400px;
+	margin: auto;
+}
+
+#flag-title{
+	margin: auto;
+	width: 400px;
+	padding: 30px;
+}
+
+.question {
+	margin: auto;
+	width: 350px;
+}
+
+.question li{
+	position: relative;
+	right: 30px;
+	margin: auto;
+	font-size: 40px;
+	width: 220px;
+}
+
+.question-2 {
+	margin: auto;
+	width: 350px;
+}
+
+.question-2 strong{
+	font-weight: 800;
+	color: #990000;
+}
+
+.question-2 li{
+	position: relative;
+	right: 30px;
+	margin: auto;
+	font-size: 20px;
+	width: 220px;
+}
+
+.flag{
+	display: absolute;
+	border: black solid 2px;
+	width: 200px;
+}
+
+#submit{
+	position: relative;
+	left: 85px;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+}
+
+.answer{
+	position: relative;
+	left: 35px;
+	background-color: white;
+	padding: 5px 0px;
+	text-align: center;
+	width: 200px;
+	display: inline-block;
+	border: gray solid 2px;
+	margin-bottom: 40px;
+	font-size: 1em;
+}
+
+#score{
+	padding-top: 40px;
+	width: 700px;
+	margin: auto;
+}

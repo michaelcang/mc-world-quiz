@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Country Flag Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+</head>
+<body>
+	<header>
+		<h1 id="flag-title">Countries by Their Flags</h1>
+		<h2>Write the name of the countries in the box below the flag using english</h2>
+		<nav>
+			<div>
+				<a href="index.html">
+					Homepage
+				</a>
+			</div>
+		</nav>
+	</header>
+	<form action="#" id="main-form" method="post">
+		<ol class="question">
+			<li><img class ="flag" src="img/flag/indonesia.png" alt="Indonesian Flag"></li>
+			<input type="text" class='answer'>
+			<li><img class ="flag" src="img/flag/japan.png" alt="Japan Flag"></li>
+			<input type="text" class='answer'>
+			<li><img class ="flag" src="img/flag/netherlands.png" alt="Netherlands Flag"></li>
+			<input type="text" class='answer'>
+			<li><img class ="flag" src="img/flag/thailand.png" alt="Thailand Flag"></li>
+			<input type="text" class='answer'>
+			<li><img class ="flag" src="img/flag/china.png" alt="China Flag"></li>
+			<input type="text" class='answer'>
+			<li><img class ="flag" src="img/flag/malaysia.png" alt="Malaysia Flag"></li>
+			<input type="text" class='answer'>
+			<li><img class ="flag" src="img/flag/spain.png" alt="Spain Flag"></li>
+			<input type="text" class='answer'>
+			<li><img class ="flag" src="img/flag/german.png" alt="German Flag"></li>
+			<input type="text" class='answer'>
+			<li><img class ="flag" src="img/flag/singapore.png" alt="Singapore Flag"></li>
+			<input type="text" class='answer'>
+			<li><img class ="flag" src="img/flag/france.png" alt="France Flag"></li>
+			<input type="text" class='answer'><br>
+			<button type="button" id="submit" onclick="return validate()">Submit</button>
+		</ol>
+	<h4 id='score'></h4>
+	<script src="flag-script.js"></script>
+</body>
+</html>
